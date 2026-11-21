@@ -1,0 +1,13 @@
+name : First-Workfloww
+
+on :
+  push: 
+      branches:
+        -main
+
+jobs:
+    example-Job:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Run Welcome Message
+            run : "Welcome in workflow message"
