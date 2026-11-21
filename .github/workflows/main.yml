@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
           - name: Run Welcome Message
-            run: "Welcome in workflow message"
+            run: echo  "Welcome in workflow message"
