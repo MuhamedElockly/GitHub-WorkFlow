@@ -11,3 +11,5 @@ jobs:
         steps:
           - name: Run Welcome Message
             run: echo  "Welcome in workflow message"
+          - name : Checkout repository
+            run: ls -la
