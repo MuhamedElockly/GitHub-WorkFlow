@@ -1,5 +1,5 @@
 Expected="Hello, World!"
-Output=$(node -e "console.log(require('./src/app.')('test'))")
+Output=$(node -e "console.log(require('./src/app')('World'))")
 if [ "$Output" = "$Expected" ]; then
   echo "Test passed!"
   exit 0
