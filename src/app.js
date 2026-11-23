@@ -1,11 +1,9 @@
-function greate(name) {
-    return `hello , ${name} :`
-    
+function greet(name) {
+    return `Hello, ${name}!`;
 }
 
-model.export =greate;
+module.exports = greet;
 
-if (requre.main==module)
-    {
-        console.log(greate("Mohamed Mahmoud"));
-    }
+if (require.main === module) {
+    console.log(greet("World"));
+}
