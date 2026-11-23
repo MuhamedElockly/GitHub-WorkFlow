@@ -1,0 +1,19 @@
+on : 
+    push :
+        branches :
+          - main
+          - "release/**"
+        paths :
+          - "src/**"
+        pull_request :
+          - main
+          - "release/**"
+jobs : 
+    tests :
+        run-on : ububtu-latest
+        steps :
+            - name : checkout-code
+              uses : actions/checkout@v4.2.2
+
+            - name : run-tests
+              uses : npm test
