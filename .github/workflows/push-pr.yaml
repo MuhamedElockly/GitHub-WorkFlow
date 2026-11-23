@@ -10,7 +10,7 @@ on :
           - "release/**"
 jobs : 
     tests :
-        run-on : ububtu-latest
+        runs-on : ububtu-latest
         steps :
             - name : checkout-code
               uses : actions/checkout@v4.2.2
