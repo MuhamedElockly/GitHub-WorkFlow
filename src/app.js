@@ -7,5 +7,5 @@ model.export =greate;
 
 if (requre.main==module)
     {
-        console.log(greate("Mohamed"));
+        console.log(greate("Mohamed Mahmoud"));
     }
